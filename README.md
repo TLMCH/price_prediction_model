@@ -9,7 +9,9 @@
 Команда для запуска MLflow-сервера: sh mlflow_server/run_mlflow_server.sh
 
 Название эксперимента в MLflow: sprint_2
+
 Run name: baseline_model
+
 Run id: 4c7344a283b74e19a939bd362742e37e
 
 Название зарегистрированной модели: baseline_model 
@@ -32,7 +34,9 @@ Run id: 4c7344a283b74e19a939bd362742e37e
 
 
 Название эксперимента в MLflow: sprint_2
+
 Run name: EDA
+
 Run id: e0e48b685c184f67aa6aca75156c5df4
 
 
@@ -51,7 +55,9 @@ Run id: e0e48b685c184f67aa6aca75156c5df4
 Модель, обученная на новых признаках, показала лучшие результаты по сравнению с изначальной.
 
 Название эксперимента в MLflow: sprint_2
+
 Run name: model_with_new_features
+
 Run id: b4246b98338a4599902e593ece9bd01e
 
 Название зарегистрированной модели: model_with_new_features
@@ -64,7 +70,9 @@ Run id: b4246b98338a4599902e593ece9bd01e
 Графики и отобранные признаки сохранены в директории FS_ASSETS.
 
 Название эксперимента в MLflow: sprint_2
+
 Run name: model_with_selected_features
+
 Run id: b9d12e224a5e434a9866b548e06014ab
 
 Название зарегистрированной модели: model_with_selected_features
@@ -72,12 +80,14 @@ Run id: b9d12e224a5e434a9866b548e06014ab
 
 ## Этап 5. Подбор гиперпараметров и обучение новой версии модели.
 
-В ходе этого этапа были использованы два метода подбора гиперпараметров из библиотеки optuna: TPESampler, CmaEsSampler. Результаты практичеки не отличаются, но лучшие получились при использовании TPESampler.
+В ходе этого этапа были использованы два метода подбора гиперпараметров из библиотеки optuna: TPESampler, CmaEsSampler. Результаты практичеcки не отличаются, но лучшие получились при использовании TPESampler.
 
 Графики и отобранные гиперпараметры сохранены в директории OPTUNA_ASSETS.
 
 Название эксперимента в MLflow: sprint_2
+
 Run name: model_optuna_TPESampler
+
 Run id: d8792911b4e749b2834d2fc3353daf8d
 
 Название зарегистрированной модели: model_optuna_TPESampler
