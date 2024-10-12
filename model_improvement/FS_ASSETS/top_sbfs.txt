@@ -1,0 +1,1 @@
+["sqrt(longitude)/latitude", "num__pol__total_area longitude", "num__pol__latitude longitude", "num__pol__kitchen_area living_area build_year", "num__pol__total_area^3", "num__pol__build_year latitude longitude", "num__pol__latitude^3", "num__pol__longitude^3", "cat__has_elevator_0", "cat__floor_type_0"]
