@@ -1,1 +1,1 @@
-{"learning_rate": 0.09787408116520177, "depth": 12, "l2_leaf_reg": 1.4082964905996944, "random_strength": 0.49286642399410213}
+{"learning_rate": 0.0783428668889509, "depth": 12, "l2_leaf_reg": 3.9470709422586547, "random_strength": 0.13242708155062677}
